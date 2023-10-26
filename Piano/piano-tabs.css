@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+}
+
+#piano-body {
+    background-color: #00471b;
+    width: 992px;
+    height: 290px;
+    position: relative;
+    margin: 10px;
+    border-radius: 15px;
+    z-index: -1;
+    
+}
+
+#piano-logo {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    margin: 30px;  
+}
+
+#white-keys {
+    background-color: black;
+    width: 949px;
+    height: 180px;
+    position: absolute;
+    margin: 80px 25px 0 25px;
+    border: 1px solid black;
+    z-index: 0;
+}
+
+#black-keys {
+    position: absolute;
+    top: 70px;
+    left: 62px;
+    z-index: 1;
+}
+
+.white-key {
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid black;
+
+
+}
+
+.black-key {
+    background-color: black;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin: 14px;
+    width: 40px;
+    height: 110px;
+    float: left;
+}
+
+.middle {
+    margin-right: 80px;
+}
+
+
+
+
+
