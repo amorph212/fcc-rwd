@@ -1,0 +1,67 @@
+/**
+* Style for: freeCodeCamp - Responsive Web Design - Survey form
+* Author: Andrea Kubcová
+ */
+
+#main {
+    color: #361D2E;
+    background-color:#CBC0AD;
+    margin: 50px auto 50px auto;
+    padding: 20px;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
+  #title {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+  
+  }
+  
+  #img-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #86A397;
+    padding: 10px;
+  }
+  
+  #img-caption {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  #image {
+    max-width: 100%;
+    max-height: auto;
+  }
+  
+  #tribute-info {
+    text-align: justify;
+  
+  }
+  
+  #tribute-info::first-letter {
+    font-weight: bold;
+    font-size: 14px;
+  
+    
+  }
+  
+  #tribute-link {
+    display: block;
+    text-align: center;
+    background-color: #361D2E;
+    color: #E1B07E; 
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px; 
+  }
+  
+  #tribute-link:hover {
+    color: #361D2E;
+    background-color: #E1B07E;
+  }
