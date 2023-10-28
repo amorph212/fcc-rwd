@@ -6,7 +6,7 @@ Certification projects
 ----------------------
 1 Survey form
 2 Tribute page
-3 TEchnical documentation page
+3 Technical documentation page
 
 ----------
 Exercices
