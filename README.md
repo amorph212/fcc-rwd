@@ -14,7 +14,7 @@ Exercices
 Balance sheet
 Cat (position)
 Cat gallery (flex box)
-City skyline (box model, variables)
+City skyline (box model, variables, day/night effect)
 Coffe menu
 Color markers
 Piano
