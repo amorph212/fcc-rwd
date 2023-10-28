@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header {
+
+}
+
+#header-img {
+    width: 50px;
+    height: auto;
+}
+
+#nav-bar {
+
+}
+
+#video {
+
+}
+
+#form {
+
+}
+
+#email {
+
+}
+
+#submit {
+
+}
+
+#showspace { /* Flexbox container */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+.product {  /* Flexbox item */
+
+
+}
+
+.product-header {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;    
+}
+
+.product-body {
+    
+}
+
+.product-image {
+    width: 250px;
+    height: auto;
+    
+}
+
+
+.nav-link {
+
+}
+
+
+
