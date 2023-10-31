@@ -2,52 +2,94 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Product Landing Page</title>
+        <title>Wooden Watch Log</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="freeCodeCamp - Responsive Web Design - Product Landing Page">
+        <meta name="author" content="Andrea Kubcová">
         <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/4164c2f01b.js" crossorigin="anonymous"></script>
     </head>
     <body>
       <header id="header">
-        <img src="https://www.pngrepo.com/download/228734/watches-clock.png" alt="logo Wooden Watch Log" id="header-img" />
-        <nav id="nav-bar">
-          <a href="#previous" class="nav-link">
-            <i class="fa fa-arrow-circle-left"></i> Our story</a>
-            <a href="#home" class="nav-link">
-              <i class="fa fa-home"></i> Offer</a>
-            </a>
-            <a href="#next" class="nav-link">Next <i class="fa fa-arrow-circle-right"></i></a>
+        <img src="https://www.pngrepo.com/download/228734/watches-clock.png" alt="logo Wooden Watch Log" id="header-img" class="header-item"/>
+        <h1 class="header-item">Wooden watch log</h1>
+        <nav id="nav-bar" class="header-item">
+          <a href="#our-story" class="nav-link">Our story</a>
+          <a href="#showspace" class="nav-link">Offer</a>
+          <a href="#contact-us" class="nav-link">Contact Us</a>
         </nav>
       </header>
-      <main>
-        <section>
-          <video id="video" src="https://youtu.be/wuqzPkvqbZA" controls>
-          </video>
+      <main id="main">
+        <section id="our-story">
+          <h2>Our story</h2>
+          <h3>We made our wooden watches with:</h3>
+          <div class="our-story-grid">
+          <i class="fa-solid fa-screwdriver-wrench our-story-grid-icon"></i> <div class="our-story-grid-slogan">passion for perfect engineering</div>
+          <i class="fa-solid fa-magnifying-glass our-story-grid-icon"></i> <div class="our-story-grid-slogan">care for details,</div>
+          <i class="fa-solid fa-heart our-story-grid-icon" ></i> <div class="our-story-grid-slogan">love!</div>
+          </div>
+          <div id="video" class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0a_wHO7HhMQ?si=uxc-lIV00WvHF4Kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
         </section>
-        <section>
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <label for="email">Order our newsletter anh get 10% off</label>
-                <input type="email" id="email" placeholder="Your email">
-                <input type="submit" id="submit">
-            </form>
-        </section>
-        <section>
-            <div id="showspace">
-                <div class="product">
-                    <div class="product-header">Roman elegance</div>
-                    <img class="product-image" src="https://www.adelexpress.com/wp-content/uploads/2019/04/YISUYA-Bamboo-Wooden-Watch-Men-Quartz-Leather-Band-Analog-Creative-Watches-Roman-Numerals-Dial-Unqiue-Shape-1.jpg">
-                </div>
-                <div class="product">
-                    <div class="product-header">Autumn melancholy</div>
-                    <img class="product-image" src="https://www.adelexpress.com/wp-content/uploads/2019/10/Creative-Life-Tree-Imitation-Wood-Watch-Men-Women-Quartz-Imitate-Wooden-Watch-Soft-Leather-Band-Wristwatch.jpg">
-                </div>
-                <div class="product">
-                    <div class="product-header">Traveller passion</div>
-                    <img class="product-image" src="https://organicbamboowood.com/wp-content/uploads/2017/11/Erkek-Saat-Simple-Wood-Watches-Men-s-Minimalist-Deisgn-WristWatch-Original-Wooden-Bamboo-Watch-Male-Sports.jpg">
-                </div>
+        <section id="showspace">
+          <h2>Offer</h2>
+          <div class="showspace-wrapper">
+            <div class="product">
+              <div class="product-header">Roman elegance</div>
+              <img class="product-img" src="https://www.adelexpress.com/wp-content/uploads/2019/04/YISUYA-Bamboo-Wooden-Watch-Men-Quartz-Leather-Band-Analog-Creative-Watches-Roman-Numerals-Dial-Unqiue-Shape-1.jpg">
             </div>
+            <div class="product">
+              <div class="product-header">Autumn melancholy</div>
+              <img class="product-img" alt="wooden watch autum melancholy" src="https://www.adelexpress.com/wp-content/uploads/2019/10/Creative-Life-Tree-Imitation-Wood-Watch-Men-Women-Quartz-Imitate-Wooden-Watch-Soft-Leather-Band-Wristwatch.jpg">
+            </div>
+            <div class="product">
+              <div class="product-header">Traveller passion</div>
+              <img class="product-img" alt="wooden watch traveller passion" src="https://organicbamboowood.com/wp-content/uploads/2017/11/Erkek-Saat-Simple-Wood-Watches-Men-s-Minimalist-Deisgn-WristWatch-Original-Wooden-Bamboo-Watch-Male-Sports.jpg">
+            </div>
+            <div class="product">
+              <div class="product-header">Light elegance</div>
+              <img class="product-img" alt="wooden watch light elegance" src="https://i.ebayimg.com/images/g/rmYAAOSw-29ZUaoI/s-l1600.jpg">
+            </div>
+            <div class="product">
+              <div class="product-header">Chronograph</div>
+              <img class="product-img" alt="wooden watch chronograph" src="https://i.pinimg.com/originals/dd/43/a1/dd43a1998144d872268f5fa0e4f895e6.jpg">
+            </div>
+            <div class="product">
+              <div class="product-header">Dark elegance</div>
+              <img class="product-img" alt="wooden watch dark elegance" src="https://www.adelexpress.com/product/bobo-bird-wood-watch-men-special-design-handmade-wrist-watches/relogio-masculino-BOBO-BIRD-Wood-Watch-Men-Special-Design-Handmade-Wrist-Watches-for-Him-with-Wooden-1.jpg" />
+            </div>
+          </div>
         </section>
+      <section id="contact-us">
+        <h2>Contact Us</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <div class="form-item"> 
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name">
+          </div>
+          <div class="form-item"> 
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email">
+          </div>
+          <div class="form-item"> 
+            <label for="que">Question:</label>
+            <textarea id="que" name="que" cols="30" rows="10">
+            </textarea>
+            </div>
+          <div class="form-item">
+            <input type="checkbox" id="news" name="news" /> 
+            <label for="news">Order our newsletter and get 10% off for the fist order!</label>
+          </div>
+          <div class="form-item"> 
+            <input type="submit" id="submit">
+          </form>
+      </section>
       </main>
-
+      <footer id="footer">
+        <p>Product landing page</p>
+        <p><a href="https://www.freecodecamp.org/">freeCodeCamp</a> certification project</p>
+        <p>© Andrea Kubcová, 2023 </p>
+      </footer>
     </body>
 </html>
